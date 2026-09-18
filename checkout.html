@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout — Petit Nuvem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout-page">
+  <div class="announcement">Pagamento seguro · Envio para Portugal · IVA incluído</div>
+  <header>
+    <a class="brand" href="index.html" aria-label="Petit Nuvem início">
+      <span class="cloud">☁</span>
+      <span>petit nuvem<small>CHECKOUT</small></span>
+    </a>
+    <a class="bag" href="index.html#colecao">Continuar a comprar</a>
+  </header>
+  <main class="checkout-wrap" id="checkoutRoot"></main>
+  <footer>
+    <a class="brand" href="index.html">petit nuvem <span>☁</span></a>
+    <p>Encomendas guardadas neste dispositivo até ligares um processador de pagamentos.</p>
+    <small>© <span id="year"></span> Petit Nuvem</small>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="shop-config.js"></script>
+  <script src="catalog.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>
